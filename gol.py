@@ -23,7 +23,6 @@ class GameOfLife:
         return self.grid
 
     def is_alive(self, row, col):
-
         live_neighbours = 0
         for i in range(row-1, row+2):
             for j in range(col-1, col+2):
